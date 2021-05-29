@@ -18,7 +18,7 @@ library(matrixStats)
 data <- read_excel("GeneLength_genome.xlsx")
 
 #data include gene_name, start_position, end_position, gene_description 
-data <- read_excel("milton_home/Zhao_simulation/GeneLength_genome0826.xlsx")
+data <- read_excel("Zhao_simulation/GeneLength_genome0826.xlsx")
 data <- data %>% 
   dplyr::select(locus_tag,cds_start,cds_end)
 trial_result <- data
